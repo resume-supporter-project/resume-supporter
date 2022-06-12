@@ -1,0 +1,76 @@
+h1{
+    color:blue;
+}
+section{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 10px;
+    padding: 100px;
+}
+img{
+    width: 140px;
+    height: 170px;
+}
+
+table.basic{
+    border: 0px black;
+    /* align-items: center; */
+    align-self: center;
+    width: 100%;
+    /* border-collapse: separate; */
+}
+/* td, tr{
+    border-collapse: collapse;
+} */
+
+caption{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+thead{
+    background-color: darkgray;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+table.basic td{
+    border-left: 0px;
+    border-right: 0px;
+}
+table.basic td.image{
+    border: 1px solid black;
+    margin-right: 100px;
+    /* border-collapse:separate; */
+}
+td.image{
+    height: 160px;
+}
+input{
+    border: 0;
+    width: 90%;
+}
+textarea{
+    border: 0px solid black;
+    width: 100%;
+}
+
+table.certificate{
+    border: 0px solid black;
+    width: 100%;
+    border-collapse: separate;
+}
+table.certificate td{
+    border-left: 0px;
+    border-right: 0px;
+}
+
+
+
+
+/* input ::placeholder{
+    이름
+} */
