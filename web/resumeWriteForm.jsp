@@ -21,7 +21,7 @@
 </header>
 
 <section >
-    <form method="post" enctype="multipart/form-data">
+    <form method="post" action="resumeProcess.jsp" enctype="multipart/form-data">
         <table class="basic" border="1">
             <caption>이 력 서</caption>
             <thead>
@@ -29,23 +29,20 @@
             </thead>
             <tbody>
             <tr>
-                <td class="image" rowspan="5"><img src=""></img><br><input type="file" accept="image/*"></td>
-                <td>성 명</td><td><input type="text" name="name" placeholder="한글"></td> <td><input type="text" name="name" placeholder="영 문"></td>
-            </tr>
-            <tr>
-                <td>생년월일</td><td colspan="2"><input type ="text" name="phone" placeholder="1900.01.01"></td>
+                <td class="image" rowspan="4"><img src=""></img><br><input type="file" accept="image/*"></td>
+                <td>성 명</td><td><input type="text" name="name" placeholder="한글"></td> <td><input type="text" name="enName" placeholder="영 문"></td>
             </tr>
             <tr>
                 <td>연 락 처</td> <td colspan="2"><input type ="text" name="phone" placeholder="010-0000-0000"></td>
             </tr>
             <tr>
-                <td>이 메 일</td> <td colspan="2"><input type ="text" name="phone" placeholder="asd@asd.com"></td>
+                <td>생년월일</td><td colspan="2"><input type ="text" name="birth" placeholder="970809"></td>
             </tr>
             <tr>
-                <td>주 소</td> <td colspan="2"><input type ="text" name="phone" placeholder="d" ></td>
+                <td>거 주 지</td> <td colspan="2"><input type ="text" name="add" placeholder="d" ></td>
             </tr>
 
-            <tr><td colspan="4"><textarea rows="8" placeholder="자기를 나타내는 말 50자이내"></textarea></td></tr>
+            <tr><td colspan="4"><textarea rows="8" name="introduce" placeholder="자기를 나타내는 말 50자이내"></textarea></td></tr>
             </tbody>
         </table>
         <br>
@@ -58,10 +55,10 @@
                 <td>자격명</td><td>취득일자</td><td>발급기관</td>
             </tr>
             <tr>
-                <td><input type="text"></td><td><input type="text"></td><td><input type="text"></td>
+                <td><input type="text" name="qulName"></td><td><input type="text" name="qulDate"></td><td><input type="text" name="qulAgency"></td>
             </tr>
             <tr>
-                <td><input type="text"></td><td><input type="text"></td><td><input type="text"></td>
+                <td><input type="text" ></td><td><input type="text"></td><td><input type="text"></td>
             </tr>
             <tr>
                 <td><input type="text"></td><td><input type="text"></td><td><input type="text"></td>

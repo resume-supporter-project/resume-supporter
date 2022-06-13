@@ -41,6 +41,6 @@
     <li><a href=""><strong> 마이페이지 </strong></a></li>
     <li><a href=""><strong> 전체 이력서 확인 </strong></a></li>
   </ul>
-</div>
+  </div>
 </body>
 </html>
