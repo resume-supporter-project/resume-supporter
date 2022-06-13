@@ -21,7 +21,9 @@
 </header>
 
 <section >
-    <form method="post" action="resumeProcess.jsp" enctype="multipart/form-data">
+
+<%--    <form method="post" action="resumeProcess.jsp" enctype="multipart/form-data">--%>
+    <form method="post" action="resumeProcess.jsp">
         <table class="basic" border="1">
             <caption>이 력 서</caption>
             <thead>
@@ -55,7 +57,7 @@
                 <td>자격명</td><td>취득일자</td><td>발급기관</td>
             </tr>
             <tr>
-                <td><input type="text" name="qulName"></td><td><input type="text" name="qulDate"></td><td><input type="text" name="qulAgency"></td>
+                <td><input type="text" name="qualName"></td><td><input type="text" name="qualDate"></td><td><input type="text" name="qualAgency"></td>
             </tr>
             <tr>
                 <td><input type="text" ></td><td><input type="text"></td><td><input type="text"></td>
