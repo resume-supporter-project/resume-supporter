@@ -28,7 +28,9 @@
 
 
     if( count ==1 ){
-        response.sendRedirect("index.jsp");
+//        response.sendRedirect("index.jsp");
+        out.println("성공!");
+
     }else{
         out.println("실패 ㅠㅠ");
     }

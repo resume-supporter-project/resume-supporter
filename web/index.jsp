@@ -39,7 +39,7 @@
     <li><a href=""><strong> 로그아웃</strong></a></li>
     <li><a href=""><strong> 탈퇴 </strong></a></li>
     <li><a href=""><strong> 마이페이지 </strong></a></li>
-    <li><a href=""><strong> 전체 이력서 확인 </strong></a></li>
+    <li><a onfocus=blur() href=# onclick="window.open('resumeWriteForm.jsp','이력서작성','left=400, top=50, width=1120,height=900,resizable=yes,scrollbars=yes')"><strong> 이력서 작성 </strong></a></li>
   </ul>
   </div>
 </body>
