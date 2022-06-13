@@ -16,7 +16,7 @@
     String u_mail = request.getParameter("userMAIL");
 
     String sql = "INSERT INTO Signup(users_name, users_id, users_password, users_email) VALUES";
-    sql += "('"+u_id+"','"+u_pw+"','"+u_name+"','"+u_mail+"')";
+    sql += "('"+u_name+"','"+u_id+"','"+u_pw+"','"+u_mail+"')";
 
     Statement sm = conn.createStatement();
 
