@@ -35,13 +35,13 @@
                 <td>성 명</td><td><input type="text" name="name" placeholder="한글"></td> <td><input type="text" name="enName" placeholder="영 문"></td>
             </tr>
             <tr>
-                <td>연 락 처</td> <td colspan="2"><input type ="text" name="phone" placeholder="010-0000-0000"></td>
+                <td>연 락 처</td> <td colspan="2"><input type ="text" name="phone" placeholder="01012345678"></td>
             </tr>
             <tr>
                 <td>생년월일</td><td colspan="2"><input type ="text" name="birth" placeholder="970809"></td>
             </tr>
             <tr>
-                <td>거 주 지</td> <td colspan="2"><input type ="text" name="add" placeholder="d" ></td>
+                <td>거 주 지</td> <td colspan="2"><input type ="text" name="add" placeholder="시, 구, 동 순서로" ></td>
             </tr>
 
             <tr><td colspan="4"><textarea rows="8" name="introduce" placeholder="자기를 나타내는 말 50자이내"></textarea></td></tr>
