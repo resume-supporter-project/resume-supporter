@@ -81,10 +81,14 @@
             border-radius: 20px;
             border: none;
         }
+        a{
+            text-decoration: none;
+            text-decoration-color: #000;
+        }
     </style>
 </head>
 <body>
-Home > 회원가입
+<a href="index.jsp">Home</a> > 회원가입
 <div id="image">
     <img src="Pictures/career_1920.png">
 </div>

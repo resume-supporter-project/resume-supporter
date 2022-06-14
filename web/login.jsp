@@ -70,10 +70,14 @@
             border-radius: 20px;
             border: none;
         }
+        a{
+            text-decoration: none;
+            text-decoration-color: #000;
+        }
     </style>
 </head>
 <body>
-Home > 로그인
+<a href="index.jsp">Home</a> > 로그인
 <div id="image">
     <img src="Pictures/resume_1280.png">
 </div>
