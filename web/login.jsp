@@ -78,7 +78,7 @@ Home > 로그인
     <img src="Pictures/resume_1280.png">
 </div>
 <p></p><p></p>
-<form name="loginForm" action="index.jsp" method="post" onsubmit="return checkFun()">
+<form name="loginForm" action="sessionLogin.jsp" method="post" onsubmit="return checkFun()" autocomplete="off">
     <fieldset>
         <legend> 로그인 화면 </legend><p></p>
         <label>

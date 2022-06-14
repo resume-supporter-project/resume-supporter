@@ -89,7 +89,7 @@ Home > 회원가입
     <img src="Pictures/career_1920.png">
 </div>
 <p></p><p></p>
-<form action="insertDB.jsp" name="user_info" method="post" onsubmit="return checkFun()">
+<form action="insertDB.jsp" name="user_info" method="post" onsubmit="return checkFun()" autocomplete="off">
     <fieldset>
         <legend> 회원가입 화면 </legend><p></p>
         <label>

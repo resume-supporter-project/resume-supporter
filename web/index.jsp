@@ -10,8 +10,6 @@
 
 <%@ include file="dbConn.jsp" %>
 
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,6 +24,12 @@
 </head>
 
 <body>
+<header style="float: right">
+    <%
+        String u_id = (String)session.getAttribute("u_id");
+    %>
+    <%=u_id %>님이 로그인 중입니다.
+</header>
 
 <%
     request.setCharacterEncoding("UTF-8");
@@ -46,20 +50,18 @@
 <div id="">
     <div id="shadows" class="force-3d"></div>
     <div class="container wrapper top-wrapper"> <!-- 상단 모양 조절 -->
-        <span class="searcher pull-left"> <!--  면접자 페이지 왼쪽 여백 -->
-            </span>
+        <span class="searcher pull-left"> <!--  면접자 페이지 왼쪽 여백 --></span>
         <span class="logo">
-      <span class="txt-center blog-title"><a id="this-blog" href="/">면접자 페이지</a></span>
-    </span>
+            <span class="txt-center blog-title"><a id="this-blog" href="index.jsp">면접자 페이지</a></span>
+        </span>
         <span id="navigation" class="nav"> <!-- 상단 모양 조절 -->
-      <span class="closer pull-right">
-        <button id="btn-closer" class="icon-cancel"></button>
-      </span>
-
+        <span class="closer pull-right">
+            <button id="btn-closer" class="icon-cancel"></button>
+        </span>
 
   <ul><br>
     <li><a href="login.jsp"><strong>로그인 </strong></a></li>
-    <li><a href=""><strong> 로그아웃</strong></a></li>
+    <li><a href="logout.jsp"><strong> 로그아웃</strong></a></li>
     <li><a href=""><strong> 탈퇴 </strong></a></li>
     <li><a onfocus=blur() href=# onclick="window.open('resumeWriteForm.jsp','이력서작성','left=400, top=50, width=1120,height=900,resizable=yes,scrollbars=yes')"><strong> 이력서 작성하기 </strong></a></li>
   </ul>
