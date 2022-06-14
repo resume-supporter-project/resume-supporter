@@ -69,7 +69,7 @@
         <table style="width:100%;margin-top:20px;">
             <%
 
-                if(!rs.next()){ // 조회된 데이터가 없을 때
+                if(!rs.isBeforeFirst()){ // 조회된 데이터가 없을 때
             %>
             <tr>
                 <td style="text-align:center;">데이터가 없습니다.</td>
