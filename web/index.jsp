@@ -28,18 +28,17 @@
     <%
         String u_id = (String)session.getAttribute("u_id");
     %>
-    <%=u_id %>님이 로그인 중입니다.
+    <% if(u_id!=null){   %>
+        <%=u_id %>님이 로그인 중입니다.
+    <%; }%>
+
 </header>
 
 <%
     request.setCharacterEncoding("UTF-8");
     ResultSet rs            = null;
     PreparedStatement pstmt = null;
-
-
     try {
-
-
         String sql="select * from Users"; // 유저 테이블 select
         pstmt = conn.prepareStatement(sql);
         rs = pstmt.executeQuery();
@@ -91,8 +90,8 @@
                 %>
 
                 <td>
-                    <a href="/resumeWriteForm.jsp"> <!-- 자격증 세부 페이지 링크 넣는 곳 -->
-                        <img src="/images/image.png" width="125px;"/><br/>
+                    <a onfocus=blur() href=# onclick="window.open('resume.jsp','이력서보기','left=400, top=50, width=1120,height=900,resizable=yes,scrollbars=yes')">
+                        <img src="/Pictures/image.png" width="125px;"/><br/>
                         성   명 : <%=rs.getString("users_name") %> <br/>
                         연 락 처 : <%=rs.getString("users_phone") %><br/>
                         자 격 증 : <%=rs.getString("qual_name") %>
