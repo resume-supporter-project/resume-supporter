@@ -31,7 +31,7 @@
             </thead>
             <tbody>
             <tr>
-                <td class="image" rowspan="4"><img src=""></img><br><input type="file" accept="image/*"></td>
+                <td class="image" rowspan="4"><img src="Pictures/human.png"></img><br><input type="file" accept="image/*"></td>
                 <td>성 명</td><td><input type="text" name="name" placeholder="한글"></td> <td><input type="text" name="enName" placeholder="영 문"></td>
             </tr>
             <tr>
