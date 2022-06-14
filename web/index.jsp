@@ -91,7 +91,7 @@
 
                 <td>
                     <a onfocus=blur() href=# onclick="window.open('resume.jsp','이력서보기','left=400, top=50, width=1120,height=900,resizable=yes,scrollbars=yes')">
-                        <img src="/Pictures/image.png" width="125px;"/><br/>
+                        <img src="/Pictures/human.png" width="125px;"/><br/>
                         성   명 : <%=rs.getString("users_name") %> <br/>
                         연 락 처 : <%=rs.getString("users_phone") %><br/>
                         자 격 증 : <%=rs.getString("qual_name") %>
